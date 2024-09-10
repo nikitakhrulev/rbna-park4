@@ -1,0 +1,51 @@
+.rent {
+    padding: 96px 0 132px;
+}
+.rent__header {
+   text-align: center;
+   font-family: 'HandilPro';
+    margin-bottom: 138px;
+
+   .title {
+        text-align: center;
+   }
+   p {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 227%;
+    text-transform: uppercase;
+    color: #000;
+   }
+}
+.rent__stats {
+    display: flex;
+    justify-content: end;
+    gap: 88px;
+
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 150%;
+}
+.rent__img {
+    margin-bottom: 108px;
+}
+.rent__stat {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    
+    .first {
+        background: var(--beige);
+    }
+    .second {
+        background: var(--grey);
+    }
+    .third {
+        border: 1px solid var(--red);
+    }
+}
+.rent__stat-qube {
+    height: 30px;
+    width: 30px;
+}

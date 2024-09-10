@@ -1,0 +1,31 @@
+.header {
+    background-color: var(--dark-green);
+
+    text-align: center;
+}
+.header__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 53px 0;
+
+    * {
+        color: white;
+    }
+}
+.header__row-phone {
+    font-size: 18px;
+}
+.header__row-btn {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 117%;
+
+    background-color: var(--light-green);
+
+    button {
+        padding: 10px 20px;
+    }
+}
