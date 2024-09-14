@@ -3,15 +3,15 @@
 }
 .advantages__list {
     width: 100%;
-    max-width: 836px;
+    max-width: 940px;
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 1fr 1.2fr;
-    grid-template-columns: 1fr 1.2fr;
+    -ms-grid-columns: 2fr 2fr;
+    grid-template-columns: 2fr 2fr;
     -webkit-box-align: stretch;
     -ms-flex-align: stretch;
     align-items: stretch;
-    gap: 55px 108px;
+    gap: 46px 135px;
     margin-left: auto;
 }
 .advantages__item {

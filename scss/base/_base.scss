@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
 
+
 @font-face {
     font-family: 'HandilPro';
     src: url('/fonts/HandilProMedium.otf') format('opentype');
@@ -8,6 +9,7 @@
 }
 body {
     font-family: 'Saira', sans-serif;
+    overflow-x: hidden;
 }
 
 .container {
@@ -41,8 +43,9 @@ body {
     -ms-flex-align: center;
     align-items: center;
     background-color: var(--light-green);
-    font-weight: 500;
-    font-size: 10px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 117%;
     text-transform: uppercase;
     text-align: center;
     color: #fff;

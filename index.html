@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RBNA</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="./scss/main.css">
 </head>
 <body>
@@ -38,11 +39,13 @@
                 <img src="./img/hero.jpg" alt="hero" class="img-cover rellax">
             </div>
         </section>
-        <section class="solutions hidden">
+        <section class="solutions">
             <div class="container">
-                <div class="solutions__header">
-                    <h2>Эффективные решения для бизнеса</h2>
-                    <p>Продажа помещений для производства и хранения</p>
+                <div class="solutions__header-wrapper">
+                    <div class="solutions__header">
+                        <h2>Эффективные решения<br>для бизнеса</h2>
+                        <p>Продажа помещений для производства и хранения</p>
+                    </div>
                 </div>
             </div>
             <div class="solutions__map">
@@ -57,7 +60,7 @@
                         <p>ОБЩАЯ ПЛОЩАДЬ КОМПЛЕКСА ТЫСЯЧ, М²</p>
                     </div>
                     <div class="moreProject__level">
-                        <div class="btn-grey">Получить предложение</div>
+                        <button class="btn">Получить предложение</button>
                     </div>
                 </div>
                 <div class="moreProject__items">
@@ -171,6 +174,51 @@
             </div>
             <div class="plan__schema">
                 <img src="./img/plan.png" alt="plan">
+                <div class="point">
+                    <div class="point__circle">
+                        <svg width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <line y1="3.57821" x2="12" y2="3.57812" stroke="white"></line>
+                            <line y1="0.5" x2="12" y2="0.5" stroke="white"></line>
+                            <line y1="6.5" x2="12" y2="6.5" stroke="white"></line>
+                        </svg>
+                    </div>
+                </div>
+                <div class="point">
+                    <div class="point__circle">
+                        <svg width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <line y1="3.57821" x2="12" y2="3.57812" stroke="white"></line>
+                            <line y1="0.5" x2="12" y2="0.5" stroke="white"></line>
+                            <line y1="6.5" x2="12" y2="6.5" stroke="white"></line>
+                        </svg>
+                    </div>
+                </div>
+                <div class="point">
+                    <div class="point__circle">
+                        <svg width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <line y1="3.57821" x2="12" y2="3.57812" stroke="white"></line>
+                            <line y1="0.5" x2="12" y2="0.5" stroke="white"></line>
+                            <line y1="6.5" x2="12" y2="6.5" stroke="white"></line>
+                        </svg>
+                    </div>
+                </div>
+                <div class="point">
+                    <div class="point__circle">
+                        <svg width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <line y1="3.57821" x2="12" y2="3.57812" stroke="white"></line>
+                            <line y1="0.5" x2="12" y2="0.5" stroke="white"></line>
+                            <line y1="6.5" x2="12" y2="6.5" stroke="white"></line>
+                        </svg>
+                    </div>
+                </div>
+                <div class="point">
+                    <div class="point__circle">
+                        <svg width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <line y1="3.57821" x2="12" y2="3.57812" stroke="white"></line>
+                            <line y1="0.5" x2="12" y2="0.5" stroke="white"></line>
+                            <line y1="6.5" x2="12" y2="6.5" stroke="white"></line>
+                        </svg>
+                    </div>
+                </div>
             </div>
         </section>
         <section class="rent">
@@ -226,16 +274,16 @@
                         Гибкие условия<br>сотрудничества
                     </li>
                     <li class="advantages__item">
-                        увеличение площадей и установка<br>необходимого оборудования
-                    </li>
-                    <li class="advantages__item">
-                        Энергоэффективность и экономичность<br>в эксплуатации
-                    </li>
-                    <li class="advantages__item">
                         Удобная локация рядом с ключевыми<br>транспортными узлами и магистралями
                     </li>
                     <li class="advantages__item">
+                        увеличение площадей и установка<br>необходимого оборудования
+                    </li>
+                    <li class="advantages__item">
                         Высокие стандарты качества строительства<br>по современным технологиям
+                    </li>
+                    <li class="advantages__item">
+                        Энергоэффективность и экономичность<br>в эксплуатации
                     </li>
                     <li class="advantages__item">
                         Характеристики объекта базируются на реальных<br>потребностях бизнеса и персонала
@@ -271,11 +319,190 @@
                 </div>
             </div>
         </section>
+        <section id='project' class='project'>
+            <div class="container project__container">
+                <div class="project__info">
+                    <span data-aos="fade-up">ИНДУСТРИАЛЬНЫЙ ДЕВЕЛОПЕР<br>
+                        ПОЛНОГО ЦИКЛА</span>
+                    <img src="./img/logo.svg" alt="">
+                </div>
+                <div class="project__box">
+                    <span data-aos="fade-up">В портфеле компании</span>
+                    <div class="project__items">
+                        <div class="project__item" data-aos="fade-up">
+                            <span>650 000+ м² </span>
+                            <p>проектов</p>
+                        </div>
+                        <div class="project__item" data-aos="fade-up">
+                            <span>10+ лет </span>
+                            <p>НА рынке</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="project__content">
+                <div class="swiper swiper-img">
+                    <div class="swiper-wrapper">
+                        <a href='#' class="swiper-slide cursor-arrow">
+                            <picture>
+                                <img loading="lazy" src="img/project/project00.jpg" class="img-cover" width="933" height="560" alt="project">
+                            </picture>
+                        </a>
+                        <a href='#' class="swiper-slide cursor-arrow">
+                            <picture>
+                                <img loading="lazy" src="img/project/project01.jpg" class="img-cover" width="933" height="560" alt="project">
+                            </picture>
+                        </a>
+                        <a href='#' class="swiper-slide cursor-arrow">
+                            <picture>
+                                <img loading="lazy" src="img/project/project02.jpg" class="img-cover" width="933" height="560" alt="project">
+                            </picture>
+                        </a>
+                        <a href='#' class="swiper-slide cursor-arrow">
+                            <picture>
+                                <img loading="lazy" src="img/project/project03.jpg" class="img-cover" width="933" height="560" alt="project">
+                            </picture>
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper swiper-text">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <p>Логистические комплексы класса А</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <p>Индустриальные комплексы Light Industrial </p>
+                        </div>
+                        <div class="swiper-slide">
+                            <p>Городские склады последней мили </p>
+                        </div>
+                        <div class="swiper-slide">
+                            <p>Промышленные комплексы и технопарки, включая пищевую отрасль</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         <section class="products">
             <div class="container products__container">
-                <h2 class="title products__title">ПРОЕКТЫ RBNA
-                </h2>
+                <div class="products__header">
+                    <h2 class="title products__title">ПРОЕКТЫ RBNA</h2>
+                    <div class="products__arrows">
+                        <button id="arrowLeft">
+                            <img src="./img/products-left-arrow.svg" alt="left">
+                        </button>
+                        <button id="arrowRight">
+                            <img src="./img/products-right-arrow.svg" alt="right">
+                        </button>
+                    </div>
+                </div>
             </div>
+            <div class="swiper swiper-products">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide">
+                    <div class="product__img">
+                        <img src="./img/swiper-products/0.jpg" alt="">
+                    </div>
+                    <div class="relative">
+                        <div class="product__block">
+                            <span>Light Industrial</span>
+                            <p>г.о. Домодедово, дер. Заболотье</p>
+                            <p>75 000 м² </p>
+                        </div>
+                        <div class="product__info">
+                            <p class="product__text">ПРОДАЖА</p>
+                            <div class="product__name">
+                                <h3>ПАРК ВЕСНА</h3>
+                                <span>
+                                    <svg width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <line y1="3.57821" x2="12" y2="3.57812" stroke="black"></line>
+                                        <line y1="0.5" x2="12" y2="0.5" stroke="black"></line>
+                                        <line y1="6.5" x2="12" y2="6.5" stroke="black"></line>
+                                    </svg>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="product__img">
+                        <img src="./img/swiper-products/01.jpg" alt="">
+                    </div>
+                    <div class="relative">
+                        <div class="product__block">
+                            <span>Light Industrial</span>
+                            <p>г.о. Раменский, с. Зеленая Слобода </p>
+                            <p>70 000 м² </p>
+                        </div>
+                        <div class="product__info">
+                            <p class="product__text">ПРОДАЖА</p>
+                            <div class="product__name">
+                                <h3>ПАРК ЛЕТО</h3>
+                                <span>
+                                    <svg width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <line y1="3.57821" x2="12" y2="3.57812" stroke="black"></line>
+                                        <line y1="0.5" x2="12" y2="0.5" stroke="black"></line>
+                                        <line y1="6.5" x2="12" y2="6.5" stroke="black"></line>
+                                    </svg>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="product__img">
+                        <img src="./img/swiper-products/02.jpg" alt="">
+                    </div>
+                    <div class="relative">
+                        <div class="product__block">
+                            <span>Пищевой технопарк</span>
+                            <p>г. Москва, ул. Рябиновая, 44</p>
+                            <p>15 200 м²</p>
+                        </div>
+                        <div class="product__info">
+                            <p class="product__text">ПРОДАЖА</p>
+                            <div class="product__name">
+                                <h3>ПАРК РЯБИНОВАЯ</h3>
+                                <span>
+                                    <svg width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <line y1="3.57821" x2="12" y2="3.57812" stroke="black"></line>
+                                        <line y1="0.5" x2="12" y2="0.5" stroke="black"></line>
+                                        <line y1="6.5" x2="12" y2="6.5" stroke="black"></line>
+                                    </svg>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="product__img">
+                        <img src="./img/swiper-products/03.jpg" alt="">
+                    </div>
+                    <div class="relative">
+                        <div class="product__block">
+                            <span>Логистический комплекс класса А</span>
+                            <p>г. Москва, пос. Михайлово-Ярцевское</p>
+                            <p>300 000 м²</p>
+                        </div>
+                        <div class="product__info">
+                            <p class="product__text">ПРОДАЖА</p>
+                            <div class="product__name">
+                                <h3>ПАРК ШИШКИН ЛЕС</h3>
+                                <span>
+                                    <svg width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <line y1="3.57821" x2="12" y2="3.57812" stroke="black"></line>
+                                        <line y1="0.5" x2="12" y2="0.5" stroke="black"></line>
+                                        <line y1="6.5" x2="12" y2="6.5" stroke="black"></line>
+                                    </svg>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
         </section>
         <section class="trust">
             <div class="container">
@@ -314,5 +541,7 @@
             </div>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/index.js"></script>
 </body>
 </html>

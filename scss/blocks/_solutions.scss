@@ -1,7 +1,7 @@
 .solutions {
     padding-top: 132px;
 
-    font-family: 'HandilPro', sans-serif;
+    font-family: var(--second-font), sans-serif;
 }
 .solutions__header {
     margin-bottom: 103px;
@@ -12,9 +12,20 @@
         font-size: 42px;
         line-height: 119%;
         text-transform: uppercase;
+        margin-bottom: 25px;
+    }
+    p {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 227%;
+    text-transform: uppercase;
     }
 }
-
+.solutions__header-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .solutions__map {
     width: 100%;
     position: relative;

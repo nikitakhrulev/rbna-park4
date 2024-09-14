@@ -15,7 +15,7 @@
     -ms-flex-direction: column;
     flex-direction: column;
     padding-top: 80px;
-
+    padding-bottom: 96px;
     .btn-grey {
         min-width: 186px;
         margin-right: 5px;
@@ -81,7 +81,7 @@
         line-height: 157%;
         text-transform: uppercase;
         color: #000;
-        font-family: var(--second-family);
+        font-family: var(--second-font);
         max-width: 262px;
         padding-bottom: 48px;
         margin-left: 24px;
@@ -120,7 +120,6 @@
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     margin-top: 35px;
-    margin-bottom: 88px;
 }
 .moreProject__item {
     width: 33.333333%;
@@ -128,7 +127,7 @@
     display: grid;
     -ms-grid-columns: 40px 1fr;
     grid-template-columns: 40px 1fr;
-    gap: 30px;
+    gap: 32px;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
@@ -136,4 +135,11 @@
     border-bottom: 1px solid #b3b6c0;
     -webkit-transition-duration: 0.8s !important;
     transition-duration: 0.8s !important;
+
+    span {
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 150%;
+        text-transform: uppercase;
+    }
 }

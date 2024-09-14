@@ -1,4 +1,4 @@
-<svg width="41" height="25" viewBox="0 0 41 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-<line y1="12.74" x2="38.7496" y2="12.74" stroke="#364A46"/>
-<path d="M28.6521 23.6956L39.9999 12.3478L28.6521 0.999945" stroke="#364A46"/>
+<svg width="32" height="25" viewBox="0 0 32 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+<line y1="-0.5" x2="31" y2="-0.5" transform="matrix(1 0 0 -1 0 12)" stroke="white"/>
+<path d="M19.6521 1L30.9999 12.3478L19.6521 23.6956" stroke="white"/>
 </svg>
